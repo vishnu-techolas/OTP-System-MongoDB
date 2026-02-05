@@ -1,0 +1,20 @@
+{
+    "name": "9_11_mongo_otp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.mjs",
+    "scripts": {
+        "dev": "nodemon --env-file=.env",
+        "start": "node app.mjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "express": "^5.2.1",
+        "mongoose": "^9.1.6",
+        "nodemailer": "^8.0.0",
+        "otp-generator": "^4.0.1"
+    }
+}
