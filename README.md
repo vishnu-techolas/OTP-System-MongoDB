@@ -19,6 +19,7 @@ Environment variables required:
    ```
 3. Create a `.env` file in the project root and add the required environment variables listed above
 4. Start the service:
+
    DEVELOPMENT SERVER
    ```bash
    npm run dev
