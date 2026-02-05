@@ -5,7 +5,7 @@
     "main": "app.mjs",
     "scripts": {
         "dev": "nodemon --env-file=.env",
-        "start": "node app.mjs"
+        "start": "node --env-file=.env app.mjs"
     },
     "keywords": [],
     "author": "",
